@@ -1,0 +1,80 @@
+
+/* Cuerpo de la página */
+.landing-container {
+    text-align: justify;
+    padding: 50px 20px;
+    background-color:rgb(210, 225, 236);
+
+}
+
+.left-section h3{
+    color: #162640;
+    text-align: center;
+}
+
+.landing-container h2 {
+    color: #162640;
+    font-size: 2em;
+    text-align: center;
+}
+
+.landing-container p {
+    color: #333;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Configurar lado derecho de la página*/
+.right-section img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrar la imagen */
+}
+
+.botonDeco {
+    background-color: #162640; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 20px 2px; /* Margen */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.botonDeco:hover {
+    background-color: #45a049; /* Color de fondo al pasar el cursor */
+}
+
+/* Configurar lado izquierda de la página */
+.left-section img {
+    max-width: 60%; /* establecer tamaño imagen en % */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Centrar la imagen y agregar margen inferior */
+    float: left; /* Hacer que la imagen flote a la izquierda */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinear verticalmente el contenido */
+}
+
+.left-section a {
+    text-decoration: none;
+    color: #34495E;
+    font-weight: bold;
+}
+
+.left-section a:hover {
+    color: #1ABC9C;
+    text-decoration: underline;
+}

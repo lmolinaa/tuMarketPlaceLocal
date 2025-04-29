@@ -1,0 +1,154 @@
+/* Cabecera */
+header {
+    background-color: #C9ECFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 80px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #162640;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu > li {
+    position: relative;
+    margin-right: 20px;
+}
+
+nav .menu > li > a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu > li > a img {
+    margin-right: 8px;
+}
+
+nav .menu > li a {
+    text-decoration: none;
+    color: #162640;
+    font-size: 1em;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Estilo para los íconos */
+.iconoMenu {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.iconoSubmenu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.iconoMenu svg {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Estilo para las pestañas */
+nav .menu > .tab a {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav .menu > .tab a:hover {
+    background-color: #162640;
+    color: white;
+}
+
+/* Estilo para el menú desplegable */
+nav .menu > .dropdown a {
+    cursor: pointer;
+}
+
+nav .menu > .dropdown .submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: auto; /* Restablecer cualquier valor previo de right */
+    left: 0; /* Alinear a la izquierda */
+    max-width: calc(100vw - 20px); /* Asegurar que el submenú no se salga de la pantalla */
+    overflow-x: auto; /* Permitir el desplazamiento horizontal si es necesario */
+    background-color: #C9ECFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /*Ocultar el submenú inicialmente*/
+    z-index: 1000;
+    white-space: nowrap; /*Evitar que el contenido del submenú haga salto de línea */
+}
+
+nav .menu > .dropdown .submenu li {
+    padding: 5px 10px;
+    margin: 0;
+}
+
+nav .menu > .dropdown .submenu li a {
+    text-decoration: none;
+    color: #162640;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu > .dropdown .submenu li a img {
+    margin-right: 8px;
+}
+
+nav .menu > .dropdown:hover .submenu {
+    display: block; /* Mostrar el submenú al pasar el ratón */
+}
+
+/* Efectos al pasar el ratón sobre los elementos del submenú */
+nav .menu > .dropdown .submenu li a:hover {
+    background-color: #162640;
+    color: white;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    text-align: right;
+}
+
+.centrarTd {
+    text-align: center !important;
+}

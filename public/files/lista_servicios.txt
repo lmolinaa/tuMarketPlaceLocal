@@ -1,0 +1,50 @@
+-Servicios del hogar
+    Limpieza del hogar
+    Jardinería
+    Cerrajería
+	Planchar ropa/colada
+	Hacer la compra
+
+-Reparaciones
+	General/todo
+	Fontanería
+    Electricidad
+    Pintura y decoración
+    Carpintería
+	Albañilería
+	Reparación de calefacción y aire acondicionado
+	Montaje de muebles
+	
+-Cuidado personal
+    Cuidado de niños (niñeras)
+    Cuidado de personas mayores o dependientes
+    Entrenadores personales
+    Esteticistas y maquilladores
+    Peluquería a domicilio
+    Masajistas/Fisioterapeuta/Osteópata
+
+-Educación y formación
+    Clases particulares (matemáticas, idiomas, música, etc.)
+    Tutorías escolares
+    Preparación para exámenes
+    Clases de tecnología (uso de ordenadores, software, etc.)
+
+-Servicios para mascotas
+    Paseo de perros
+    Cuidado de mascotas en ausencia de los dueños
+    Adiestramiento de perros
+    Peluquería y cuidado de mascotas
+
+-Transportes y mudanzas
+    Servicios de mudanza y transporte
+    Reparación de bicicletas
+    Transporte de compras o mercancías
+
+-Otros servicios
+    Fotografía y video para eventos
+    Organización de eventos y celebraciones
+    Reparto a domicilio (mensajería local)
+    Costura y arreglo de ropa
+    Asistencia informática (reparación y mantenimiento de ordenadores)
+	Reparación de electrodomésticos
+    Redacción y traducción de documentos

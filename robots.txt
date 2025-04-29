@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /index.php
+Allow: /app/views/actions/buscoOfrezco.php
+Allow: /app/views/actions/formContact.php
+Allow: /app/views/user/formCreateUsers.php
+Allow: /app/views/actions/aboutOf.php
+Allow: /app/views/administracion/ofertasSuscripcion.php
+Allow: /app/views/actions/dashboard.php
+Disallow: /tests/
+Disallow: /public/
+Disallow: /logs/
+Disallow: /bbdd/
+Disallow: /app/

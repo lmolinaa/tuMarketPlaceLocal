@@ -1,0 +1,8 @@
+2025-04-21 18:56:56 Inserción fallida: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'apellido' cannot be null
+2025-04-21 18:56:56 userController -> create: - Usuario Leon creado
+2025-04-22 12:02:20 Inserción fallida: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'apellido' cannot be null
+2025-04-22 12:02:20 userController -> create: - Usuario León creado
+2025-04-22 12:24:27 Inserción satisfactoria - Nombre: León - creado con ID: 67 - Nombre Rol:  - Email: leon@leon.com -Municipio Algete -CP: 28119
+2025-04-22 12:24:27 userController -> create: - Usuario León creado
+2025-04-25 13:30:59 Inserción satisfactoria - Nombre: Soledad - creado con ID: 68 - Nombre Rol:  - Email: sole@sole.es -Municipio Alcalá de Henares -CP: 28803
+2025-04-25 13:30:59 userController -> create: - Usuario Soledad creado

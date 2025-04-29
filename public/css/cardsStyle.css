@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(210, 225, 236);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #CFD4FC;
+    border: 1px solid #162640;
+    border-radius: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin-bottom: 75px; /* Añadir margen inferior */
+    display: flex;
+    flex-direction: column;
+    height: 350px; /* Establecer una altura fija */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Ajustar la altura máxima de la imagen */
+    object-fit: cover; /* Asegurar que la imagen se ajuste al contenedor */
+    flex-shrink: 0;
+    align-self: center; /* Centrar la imagen horizontalmente */
+}
+
+.card-content {
+    padding: 15px;
+    flex-grow: 1; /* Permitir que el contenido crezca para llenar el espacio */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinear los elementos al inicio */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    line-height: 1.2; /* Ajustar el interlineado */
+}
+
+.card-title {
+    font-size: 18px;
+    color: #162640;
+    margin: 5px 0; /* Reducir el margen para acercar al contenido siguiente */
+    text-align: left;
+}
+
+.card-info {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0; /* Reducir el margen para acercar al contenido anterior */
+    text-align: left;
+}
+
+.card-footer {
+    background-color: #162640;
+    padding: 15px;
+    text-align: center;
+  }
+  .card-footer a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center; /* Alineación del texto */
+    color: #162640;
+    background-color: #C9ECFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .card-footer a:hover {
+    background-color: #45a049; /* Color de fondo al pasar el cursor */
+    color: #f7f8fa;
+  }
+
+  .card-header {
+    background-color: #CFD4FC;
+    padding: 15px;
+    font-size: 1.4em;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .card-body {
+    background-color: #CFD4FC;
+    padding: 20px;
+    font-size: 1em;
+  }
+  
+  .card-body p {
+    margin: 10px 0;
+    color: #162640;
+  }

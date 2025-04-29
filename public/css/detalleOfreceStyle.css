@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(210, 225, 236);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h1 {
+    color: #005f99;
+    text-align: center;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 10px;
+    align-items: flex-start;
+    max-height: 350px; /* Ajusta esta altura según tus necesidades */
+    overflow-y: auto; /* Agrega el scroll vertical */
+}
+.card-img {
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+.card-info {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    align-items: flex-start; /* Alinea los elementos verticalmente al inicio */
+}
+.card-content {
+    order: 2; /* Coloca card-content después de la imagen */
+    flex: 1;
+}
+.card-title {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #005f99;
+}
+.card-detail {
+    margin: 10px;
+}
+.card-footer {
+    font-size: 0.9em;
+    color: #666;
+}
+.card-contact {
+    order: 1; /* Coloca card-contact primero */
+    margin-top: 0;
+    margin-right: 15px;
+    text-align: left;
+    font-size: 0.9em;
+    color: #333;
+    line-height: 1.5;
+}
+.volver {
+    display: flex; 
+    justify-content: flex-start; /* Alinea el icono al final de la fila */
+    margin-top: auto; /* Empuja el icono hacia abajo */ 
+}
