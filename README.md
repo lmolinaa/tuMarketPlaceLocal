@@ -1,30 +1,13 @@
 # tuMarketPlaceLocal es una aplicación desarrllada por Luis Molina Aguirre, cuyo único propósito es la entrega de una aplicación de tipo web como proyecto de fin de grado del grado superior de desarrollo de aplicaciones web. Teniendo en cuenta esto, a continuación pasamos a detallar los objetivos de la aplicación y el modo de instalación en local:
 
 # Objetivo del proyecto:
-# Desarrollar una aplicación web que permita conectar a los clientes con 
-# proveedores de servicios locales, facilitando la búsqueda, publicación y 
-# contratación de servicios. 
-# La aplicación permitirá la búsqueda, publicación y contratación de servicios, 
-# mejorando la comunicación entre las partes y optimizando los procesos de 
-# contratación mediante el uso de tecnologías web actuales, como PHP 8 en 
-# Backend; JavaScript, Bootstrap y AJAX en el Frontend; y MySQL para la gestión de datos. 
-# Conceptos relevantes: 
-#   • Marketplace de servicios locales: Un marketplace es una plataforma que 
-# conecta a compradores (clientes) y vendedores (proveedores). En este 
-# caso, los vendedores serán personas o empresas que ofrezcan servicios a nivel local. 
-#   • Tecnologías web: El desarrollo de aplicaciones web modernas implica el 
-# uso de lenguajes y librerías como PHP para el backend, JavaScript parala interactividad y herramientas como Bootstrap para el diseño responsivo 
-# y mejora de la experiencia del usuario. 
-#   • Bases de datos relacionales: las bases de datos como MySQL permiten 
-# almacenar y gestionar grandes volúmenes de datos de manera organizada y eficiente. 
-#   • AJAX: Facilita la carga dinámica de contenido sin necesidad de recargar 
-# la página completa, mejorando la experiencia del usuario. 
-#   • JSON: JSON es ampliamente utilizado para intercambiar datos entre 
-# servidores y clientes en aplicaciones web. También es usado para 
-# almacenar configuraciones de aplicaciones y sistemas. JSON, además, 
-# puede almacenar datos en bases de datos NoSQL como MongoDB. En 
-# esta aplicación no se usará MongoDB, pero sí usaremos JSON para 
-# almacenar datos (categorías y servicios) y para el módulo de control de palabras no permitidas. 
+# Desarrollar una aplicación web que permita conectar a los clientes con proveedores de servicios locales, facilitando la búsqueda, publicación y contratación de servicios. La aplicación permitirá la búsqueda, publicación y contratación de servicios, mejorando la comunicación entre las partes y optimizando los procesos de contratación mediante el uso de tecnologías web actuales, como PHP 8 en Backend; JavaScript, Bootstrap y AJAX en el Frontend; y MySQL para la gestión de datos. 
+# Conceptos relevantes:
+#   • Marketplace de servicios locales: Un marketplace es una plataforma que conecta a compradores (clientes) y vendedores (proveedores). En este caso, los vendedores serán personas o empresas que ofrezcan servicios a nivel local. 
+#   • Tecnologías web: El desarrollo de aplicaciones web modernas implica el uso de lenguajes y librerías como PHP para el backend, JavaScript parala interactividad y herramientas como Bootstrap para el diseño responsivo y mejora de la experiencia del usuario. 
+#   • Bases de datos relacionales: las bases de datos como MySQL permiten almacenar y gestionar grandes volúmenes de datos de manera organizada y eficiente. 
+#   • AJAX: Facilita la carga dinámica de contenido sin necesidad de recargar la página completa, mejorando la experiencia del usuario. 
+#   • JSON: JSON es ampliamente utilizado para intercambiar datos entre servidores y clientes en aplicaciones web. También es usado para almacenar configuraciones de aplicaciones y sistemas. JSON, además, puede almacenar datos en bases de datos NoSQL como MongoDB. En esta aplicación no se usará MongoDB, pero sí usaremos JSON para almacenar datos (categorías y servicios) y para el módulo de control de palabras no permitidas. 
 
 # Objetivos específicos 
 #   1. Diseñar una interfaz amigable y responsiva para los usuarios. 
